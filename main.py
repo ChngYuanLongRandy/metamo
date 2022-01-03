@@ -1,7 +1,9 @@
 #! Python3
 # Predicts the emotion of an image containing a face
 # resource : https://www.analyticsvidhya.com/blog/2021/10/machine-learning-model-deployment-using-streamlit/
-import cv2
+# for deployment: https://medium.com/@pokepim/deploying-streamlit-app-to-ec2-instance-7a7edeffbb54
+# https://aws.amazon.com/premiumsupport/knowledge-center/ec2-ppk-pem-conversion/
+#
 import send2trash
 import helper
 from helper import *
@@ -41,3 +43,6 @@ if uploaded_file is not None:
             st.text('Unable to detect a face in your image, there could be more than one face, please upload again')
     else:
         st.text("Unable to read file")
+
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port = 8080)

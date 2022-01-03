@@ -6,3 +6,5 @@ test
 train
 mmle.py
 *.jpeg
+*.pem
+*.ppk
