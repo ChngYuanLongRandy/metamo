@@ -8,3 +8,5 @@ mmle.py
 *.jpeg
 *.pem
 *.ppk
+KDEF
+KDEF_COPY
