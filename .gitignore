@@ -1,12 +1,29 @@
+# Other Documents
+mmle.py
 *.zip
 *.pdf
-*.jpg
+
+
+# Model weights
 *.h5
-test
-train
-mmle.py
-*.jpeg
+
+
+# Private keys
 *.pem
 *.ppk
+
+# Datasets
+test
+train
 KDEF
 KDEF_COPY
+*.jpeg
+*.jpg
+*.mp4
+
+
+# Proctering-AI
+Proctoring-AI
+
+# yolo weights - Too big!
+peoplecount/models
